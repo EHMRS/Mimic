@@ -10,7 +10,7 @@ on:
 
 jobs:
   tagged-frotend-release:
-    name: "Release"
+    name: "Release Frontend"
     runs-on: "ubuntu-latest"
     if: github.repository == 'EHMRS/Mimic'
 
@@ -30,10 +30,11 @@ jobs:
         with:
           image_name: ${{ env.IMAGE_REPOSITORY }}-frontend
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          dockerfile: ./frontend/Dockerfile
           context: ./frontend/
 
   tagged-backend-release:
-    name: "Release"
+    name: "Release Backend"
     runs-on: "ubuntu-latest"
     if: github.repository == 'EHMRS/Mimic'
 
@@ -53,4 +54,5 @@ jobs:
         with:
           image_name: ${{ env.IMAGE_REPOSITORY }}-bakend
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          dockerfile: ./backend/Dockerfile
           context: ./backend/
