@@ -1,0 +1,25 @@
+{
+  "name": "modernmimic",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/eslint-parser": "^7.18.9",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "sass": "^1.54.5",
+    "vite": "^3.0.7",
+    "vite-plugin-eslint": "^1.8.1"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "js-yaml": "^4.1.0"
+  }
+}

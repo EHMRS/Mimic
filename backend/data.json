@@ -1,0 +1,650 @@
+{
+    "sections": {
+      "A": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "A11": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "B": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "C": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "C19": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "CD": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "D": {
+        "state": "unoccupied",
+        "voltage": "0",
+        "setpoint": "6",
+        "timer": "3",
+        "errorsetpoint": "1",
+        "error": true
+      },
+      "DE": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "E": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "F": {
+        "state": "unoccupied",
+        "voltage": "22.1",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "F12": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "F13": {
+        "state": "unoccupied",
+        "voltage": "22.1",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "G": {
+        "state": "unoccupied",
+        "voltage": "20.48",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false,
+        "headcode": "2A01"
+      },
+      "H": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "I": {
+        "state": "unoccupied",
+        "voltage": "22.1",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "J": {
+        "state": "unoccupied",
+        "voltage": "22.1",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "K": {
+        "state": "unoccupied",
+        "voltage": "20.48",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "L": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "M": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "N": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "NO": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "NO14": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "O": {
+        "state": "unoccupied",
+        "voltage": "23.4",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "OP": {
+        "state": "unoccupied",
+        "voltage": "13.24",
+        "setpoint": "6",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "P": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "Q": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "R": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      },
+      "Q10": {
+        "state": "unoccupied",
+        "voltage": "21.2",
+        "setpoint": "18",
+        "timer": "0",
+        "errorsetpoint": "1",
+        "error": false
+      }
+    },
+    "points": {
+      "P5a": {
+        "route": "normal",
+        "state": "unoccupied",
+        "error": false
+      },
+      "P5b": {
+        "route": "normal",
+        "state": "unoccupied",
+        "error": false
+      },
+      "P6a": {
+        "route": "reverse",
+        "state": "unoccupied",
+        "error": false
+      },
+      "P6b": {
+        "route": "reverse",
+        "state": "unoccupied",
+        "error": false
+      },
+      "P10": {
+        "route": "normal",
+        "state": "unoccupied",
+        "error": false
+      },
+      "P11": {
+        "route": "normal",
+        "state": "unoccupied",
+        "error": false
+      },
+      "P12": {
+        "route": "normal",
+        "state": "unoccupied",
+        "error": false
+      },
+      "P13": {
+        "route": "normal",
+        "state": "unoccupied",
+        "error": false
+      },
+      "P14": {
+        "route": "normal",
+        "state": "unoccupied",
+        "error": false
+      },
+      "P19": {
+        "route": "normal",
+        "state": "unoccupied",
+        "error": false
+      }
+    },
+    "signals": {
+      "AJ1E": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "1",
+        "announcementdelay": "255"
+      },
+      "AJ2E": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      },
+      "AJ3E": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      },
+      "RAJ3E": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      },
+      "AJ3W": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "1"
+      },
+      "AJ4E": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      },
+      "AJ7E": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      },
+      "AJ7W": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "1"
+      },
+      "AJ8E": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "0",
+        "signaltimeout": "90",
+        "routesafetocleartimer": "0"
+      },
+      "AJ8W": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "0",
+        "signaltimeout": "90",
+        "routesafetocleartimer": "0"
+      },
+      "AJ9E": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      },
+      "AJ9W": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "1"
+      },
+      "AJ15W": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "1",
+        "announcementdelay": "0"
+      },
+      "AJ16E": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "11",
+        "signaltimeout": "80",
+        "routesafetocleartimer": "0"
+      },
+      "AJ16W": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "11",
+        "signaltimeout": "80",
+        "routesafetocleartimer": "1"
+      },
+      "AJ17E": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      },
+      "AJ17W": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "1"
+      },
+      "AJ18E": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      },
+      "AJ18W": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "1"
+      },
+      "AJ21E": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0",
+        "announcementdelay": "255"
+      },
+      "AJ22W": {
+        "signal": "danger",
+        "spad": false,
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "1",
+        "announcementdelay": "0"
+      },
+      "S11": {
+        "signal": "danger",
+        "spad": false,
+        "routesafetocleartimer": "1"
+      },
+      "S12": {
+        "signal": "danger",
+        "spad": false,
+        "routesafetocleartimer": "1"
+      },
+      "S14": {
+        "signal": "danger",
+        "spad": false,
+        "routesafetocleartimer": "1"
+      },
+      "S19": {
+        "signal": "danger",
+        "spad": false,
+        "routesafetocleartimer": "1"
+      },
+      "AJ16WLOS": {
+        "signal": "noaspect"
+      }
+    },
+    "crossings": {
+      "center": {
+        "open": false,
+        "sensor1": true,
+        "sensor2": true,
+        "sensor3": true,
+        "sensor4": true
+      }
+    },
+    "requestsnew": {
+      "S11": {
+        "type": "slot",
+        "state": "notrequested"
+      },
+      "S12": {
+        "type": "slot",
+        "state": "notrequested"
+      },
+      "S14": {
+        "type": "slot",
+        "state": "notrequested"
+      },
+      "S19": {
+        "type": "slot",
+        "state": "notrequested"
+      },
+      "AJ1E": {
+        "type": "trts",
+        "state": false,
+        "text": "Outer"
+      },
+      "AJ15W": {
+        "type": "trts",
+        "state": false,
+        "text": ""
+      },
+      "AJ21E": {
+        "type": "trts",
+        "state": false,
+        "text": ""
+      },
+      "AJ22W": {
+        "type": "trts",
+        "state": false,
+        "text": ""
+      },
+      "aj22wtrts": false,
+      "aj22wtrtstext": ""
+    },
+    "callinnew": {
+      "AJ4E": {
+        "ars": false,
+        "value": "P1",
+        "waiting": true
+      },
+      "AJ18W": {
+        "ars": false,
+        "value": "",
+        "waiting": false
+      }
+    },
+    "messagesnew": [],
+    "requests": {
+      "s11": "notrequested",
+      "s12": "notrequested",
+      "s14": "notrequested",
+      "s19": "notrequested",
+      "aj1etrts": false,
+      "aj1etrtstext": "",
+      "aj15wtrts": false,
+      "aj15wtrtstext": "",
+      "aj21etrts": false,
+      "aj21etrtstext": "",
+      "aj22wtrts": false,
+      "aj22wtrtstext": ""
+    },
+    "callin": {
+      "aj4e": {
+        "ars": false,
+        "value": "",
+        "waiting": false
+      },
+      "aj18w": {
+        "ars": true,
+        "value": "",
+        "waiting": false
+      }
+    },
+    "messages": {
+      "warning": "",
+      "error": "",
+      "err": "",
+      "info": ""
+    },
+    "info": {
+      "cabincode": "AJ",
+      "direction": "Westbound",
+      "logic": "Computer",
+      "safety": "Enabled (With safety net)",
+      "user": "",
+      "datetime": "20221008201624"
+    },
+    "frame": {
+      "lever1": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever2": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever3": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever4": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever5": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever6": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever7": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever8": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever9": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever10": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever11": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever12": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever13": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever14": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever15": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever16": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever17": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever18": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever19": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever20": {
+        "state": "unknown",
+        "locked": false
+      },
+      "lever21": {
+        "state": "normal",
+        "locked": true
+      },
+      "lever22": {
+        "state": "normal",
+        "locked": true
+      }
+    }
+  }
+  

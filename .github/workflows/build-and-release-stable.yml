@@ -1,0 +1,56 @@
+---
+name: "release"
+
+on:
+  release:
+    types: [ published ]
+  push:
+    branches:
+      - stable
+
+jobs:
+  tagged-frotend-release:
+    name: "Release"
+    runs-on: "ubuntu-latest"
+    if: github.repository == 'EHMRS/Mimic'
+
+
+    steps:
+      - name: "Grab the code"
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.ref }}
+          
+      - name: set lower case repo name 
+        run: |
+          echo IMAGE_REPOSITORY=$(echo ${{ github.repository }} | tr '[:upper:]' '[:lower:]') >> $GITHUB_ENV
+
+      - name: Build and publish a Docker image for ${{ github.repository }}
+        uses: macbre/push-to-ghcr@master
+        with:
+          image_name: ${{ env.IMAGE_REPOSITORY }}-frontend
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          context: ./frontend/
+
+  tagged-backend-release:
+    name: "Release"
+    runs-on: "ubuntu-latest"
+    if: github.repository == 'EHMRS/Mimic'
+
+
+    steps:
+      - name: "Grab the code"
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.ref }}
+          
+      - name: set lower case repo name 
+        run: |
+          echo IMAGE_REPOSITORY=$(echo ${{ github.repository }} | tr '[:upper:]' '[:lower:]') >> $GITHUB_ENV
+
+      - name: Build and publish a Docker image for ${{ github.repository }}
+        uses: macbre/push-to-ghcr@master
+        with:
+          image_name: ${{ env.IMAGE_REPOSITORY }}-bakend
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          context: ./backend/

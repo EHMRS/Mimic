@@ -1,0 +1,642 @@
+{
+  "sections": {
+    "A": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "1.16",
+        "setpoint": "6",
+        "timer": "5",
+        "eastbounddelay": "5",
+        "westbounddelay": "5",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "A11": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "3.21",
+        "setpoint": "12",
+        "timer": "3",
+        "eastbounddelay": "3",
+        "westbounddelay": "2",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "B": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "0",
+        "setpoint": "12",
+        "timer": "2",
+        "eastbounddelay": "2",
+        "westbounddelay": "2",
+        "errorsetpoint": "0",
+        "error": true
+      }
+    },
+    "C1": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "5.12",
+        "setpoint": "12",
+        "timer": "3",
+        "eastbounddelay": "3",
+        "westbounddelay": "3",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "C2": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "5.12",
+        "setpoint": "12",
+        "timer": "3",
+        "eastbounddelay": "3",
+        "westbounddelay": "3",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "C19": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "4.11",
+        "setpoint": "12",
+        "timer": "3",
+        "eastbounddelay": "3",
+        "westbounddelay": "2",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "D": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "4.11",
+        "setpoint": "5",
+        "timer": "2",
+        "eastbounddelay": "2",
+        "westbounddelay": "2",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "DE": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "3.21",
+        "setpoint": "12",
+        "timer": "2",
+        "eastbounddelay": "2",
+        "westbounddelay": "2",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "E": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "0",
+        "setpoint": "12",
+        "timer": "2",
+        "eastbounddelay": "2",
+        "westbounddelay": "2",
+        "errorsetpoint": "0",
+        "error": true
+      }
+    },
+    "F": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "0",
+        "setpoint": "12",
+        "timer": "3",
+        "eastbounddelay": "3",
+        "westbounddelay": "3",
+        "errorsetpoint": "1",
+        "error": true
+      }
+    },
+    "F12": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "1.16",
+        "setpoint": "12",
+        "timer": "3",
+        "eastbounddelay": "3",
+        "westbounddelay": "2",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "F13": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "2.56",
+        "setpoint": "12",
+        "timer": "3",
+        "eastbounddelay": "3",
+        "westbounddelay": "2",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "G": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "5.12",
+        "setpoint": "8",
+        "timer": "2",
+        "eastbounddelay": "2",
+        "westbounddelay": "2",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "H": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "5.12",
+        "setpoint": "13",
+        "timer": "2",
+        "eastbounddelay": "2",
+        "westbounddelay": "2",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "I": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "1.16",
+        "setpoint": "12",
+        "timer": "2",
+        "eastbounddelay": "2",
+        "westbounddelay": "2",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "J": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "0",
+        "setpoint": "12",
+        "timer": "3",
+        "eastbounddelay": "3",
+        "westbounddelay": "3",
+        "errorsetpoint": "0",
+        "error": true
+      }
+    },
+    "K": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "5.12",
+        "setpoint": "12",
+        "timer": "3",
+        "eastbounddelay": "3",
+        "westbounddelay": "3",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "L": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "5.12",
+        "setpoint": "12",
+        "timer": "3",
+        "eastbounddelay": "3",
+        "westbounddelay": "3",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "M": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "0",
+        "setpoint": "12",
+        "timer": "2",
+        "eastbounddelay": "2",
+        "westbounddelay": "2",
+        "errorsetpoint": "0",
+        "error": true
+      }
+    },
+    "N": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "0",
+        "setpoint": "10",
+        "timer": "2",
+        "eastbounddelay": "2",
+        "westbounddelay": "2",
+        "errorsetpoint": "0",
+        "error": true
+      }
+    },
+    "NO": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "1.16",
+        "setpoint": "12",
+        "timer": "3",
+        "eastbounddelay": "3",
+        "westbounddelay": "2",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "NO14": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "2.56",
+        "setpoint": "12",
+        "timer": "3",
+        "eastbounddelay": "3",
+        "westbounddelay": "2",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "O": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "5.12",
+        "setpoint": "11",
+        "timer": "2",
+        "eastbounddelay": "2",
+        "westbounddelay": "2",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "OP": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "2.56",
+        "setpoint": "6",
+        "timer": "2",
+        "eastbounddelay": "2",
+        "westbounddelay": "2",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "P": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "5.12",
+        "setpoint": "11",
+        "timer": "3",
+        "eastbounddelay": "3",
+        "westbounddelay": "3",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "Q1": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "2.56",
+        "setpoint": "9",
+        "timer": "3",
+        "eastbounddelay": "3",
+        "westbounddelay": "3",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "Q2": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "2.56",
+        "setpoint": "9",
+        "timer": "3",
+        "eastbounddelay": "3",
+        "westbounddelay": "3",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    },
+    "Q10": {
+      "state": "occupied",
+      "debug": {
+        "voltage": "1.16",
+        "setpoint": "12",
+        "timer": "3",
+        "eastbounddelay": "3",
+        "westbounddelay": "2",
+        "errorsetpoint": "0",
+        "error": false
+      }
+    }
+  },
+  "points": {
+    "P5a": {
+      "route": "reverse",
+      "state": "engineer",
+      "error": false
+    },
+    "P5b": {
+      "route": "reverse",
+      "state": "engineer",
+      "error": false
+    },
+    "P6a": {
+      "route": "reverse",
+      "state": "engineer",
+      "error": false
+    },
+    "P6b": {
+      "route": "reverse",
+      "state": "engineer",
+      "error": false
+    },
+    "P10": {
+      "route": "reverse",
+      "state": "engineer",
+      "error": false
+    },
+    "P11": {
+      "route": "reverse",
+      "state": "engineer",
+      "error": false
+    },
+    "P12": {
+      "route": "reverse",
+      "state": "engineer",
+      "error": false
+    },
+    "P13": {
+      "route": "reverse",
+      "state": "engineer",
+      "error": false
+    },
+    "P14": {
+      "route": "reverse",
+      "state": "engineer",
+      "error": false
+    },
+    "P19": {
+      "route": "reverse",
+      "state": "engineer",
+      "error": false
+    }
+  },
+  "signals": {
+    "AJ1E": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0",
+        "announcementdelay": "255"
+      }
+    },
+    "AJ2E": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+          "signaltimer": "255",
+          "signaltimeout": "255",
+          "routesafetocleartimer": "0"
+      }
+    },
+    "AJ3E": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      }
+    },
+    "AJ3W": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      }
+    },
+    "AJ4E": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      }
+    },
+    "AJ7E": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      }
+    },
+    "AJ7W": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      }
+    },
+    "AJ8E": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      }
+    },
+    "AJ8W": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      }
+    },
+    "AJ9E": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      }
+    },
+    "AJ9W": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      }
+    },
+    "AJ15W": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0",
+        "announcementdelay": "255"
+      }
+    },
+    "AJ16E": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      }
+    },
+    "AJ16W": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      }
+    },
+    "AJ17E": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      }
+    },
+    "AJ17W": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      }
+    },
+    "AJ18E": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      }
+    },
+    "AJ18W": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0"
+      }
+    },
+    "AJ21E": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0",
+        "announcementdelay": "255"
+      }
+    },
+    "AJ22W": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "signaltimer": "255",
+        "signaltimeout": "255",
+        "routesafetocleartimer": "0",
+        "announcementdelay": "255"
+      }
+    },
+    "S11": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "routesafetocleartimer": "0"
+      }
+    },
+    "S12": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "routesafetocleartimer": "0"
+      }
+    },
+    "S14": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "routesafetocleartimer": "0"
+      }
+    },
+    "S19": {
+      "signal": "danger",
+      "spad": false,
+      "debug": {
+        "routesafetocleartimer": "0"
+      }
+    }
+  },
+  "requests": {
+    "s11": "notrequested",
+    "s12": "requested",
+    "s14": "granted",
+    "s19": "notrequested",
+    "aj1etrts": false,
+    "aj15wtrts": false,
+    "aj21etrts": false,
+    "aj22wtrts": false
+  },
+  "callin": {
+    "aj4e": {
+      "ars": false,
+      "value": "",
+      "waiting": false
+    },
+    "aj18w": {
+      "ars": false,
+      "value": "",
+      "waiting": false
+    }
+  },
+  "messages": {
+    "warning": "Middle Blue",
+    "error": "Middle Red",
+    "info": "Bottom Left"
+  },
+  "info": {
+    "cabincode": "AJ",
+    "direction": "Eastbound",
+    "logic": "Computer",
+    "safety": "Disabled",
+    "user": "Computer",
+    "pointair": "Disabled",
+    "datetime": "202101012359"
+  }
+}
