@@ -10,7 +10,7 @@ on:
 
 jobs:
   tagged-frotend-release:
-    name: "Release Frontend"
+    name: "Release Packages"
     runs-on: "ubuntu-latest"
     if: github.repository == 'EHMRS/Mimic'
 
@@ -33,26 +33,10 @@ jobs:
           dockerfile: ./frontend/Dockerfile
           context: ./frontend/
 
-  tagged-backend-release:
-    name: "Release Backend"
-    runs-on: "ubuntu-latest"
-    if: github.repository == 'EHMRS/Mimic'
-
-
-    steps:
-      - name: "Grab the code"
-        uses: actions/checkout@v3
-        with:
-          ref: ${{ github.event.ref }}
-          
-      - name: set lower case repo name 
-        run: |
-          echo IMAGE_REPOSITORY=$(echo ${{ github.repository }} | tr '[:upper:]' '[:lower:]') >> $GITHUB_ENV
-
       - name: Build and publish a Docker image for ${{ github.repository }}
         uses: macbre/push-to-ghcr@master
         with:
-          image_name: ${{ env.IMAGE_REPOSITORY }}-bakend
+          image_name: ${{ env.IMAGE_REPOSITORY }}-backend
           github_token: ${{ secrets.GITHUB_TOKEN }}
           dockerfile: ./backend/Dockerfile
           context: ./backend/
