@@ -1,0 +1,1152 @@
+global:
+  serial:
+    port: COM24
+    baudrate: 115200
+points:
+  - name: 5a
+    normal: 248
+    reverse: 249
+    normal_return: 32
+    reverse_return: 33
+    section_input: 54
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 11
+      y: 10
+      horizontal: left
+      vertical: up
+      yScale: 2
+  - name: 5b
+    normal: 250
+    reverse: 251
+    normal_return: 34
+    reverse_return: 35
+    section_input: 55
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 4
+      y: 7
+      horizontal: right
+      vertical: down
+  - name: 6a
+    normal: 252
+    reverse: 253
+    normal_return: 36
+    reverse_return: 37
+    section_input: 56
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 9
+      y: 7
+      horizontal: left
+      vertical: down
+      yScale: 2
+  - name: 6b
+    normal: 254
+    reverse: 255
+    normal_return: 38
+    reverse_return: 39
+    section_input: 57
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 4
+      y: 10
+      horizontal: right
+      vertical: up
+  - name: 10
+    normal: 240
+    reverse: 241
+    normal_return: 40
+    reverse_return: 41
+    section_input: 58
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 16
+      y: 7
+      horizontal: right
+      vertical: down
+  - name: 11
+    normal: 242
+    reverse: 243
+    normal_return: 42
+    reverse_return: 43
+    section_input: 59
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 12
+      y: 10
+      horizontal: left
+      vertical: down
+  - name: 12
+    normal: 244
+    reverse: 245
+    normal_return: 44
+    reverse_return: 45
+    section_input: 60
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 23
+      y: 10
+      horizontal: right
+      vertical: down
+  - name: 13
+    normal: 246
+    reverse: 247
+    normal_return: 46
+    reverse_return: 47
+    section_input: 61
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 29
+      y: 10
+      horizontal: left
+      vertical: up
+      yScale: 2
+  - name: 14
+    normal: 232
+    reverse: 233
+    normal_return: 48
+    reverse_return: 49
+    section_input: 62
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 46
+      y: 7
+      horizontal: left
+      vertical: up
+  - name: 19
+    normal: 234
+    reverse: 235
+    normal_return: 50
+    reverse_return: 51
+    section_input: 63
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 46
+      y: 10
+      horizontal: left
+      vertical: down
+signals:
+  - name: AJ1E
+    type: standard_three
+    feathers: 1
+    shunt: true
+    aspects:
+      clear: 376
+      caution: 377
+      danger: 378
+      route_1: 379
+      shunt: 380
+    diagram:
+      section: H
+      end: left
+      trts: true
+  - name: AJ2E
+    type: standard_three
+    feathers: 1
+    shunt: false
+    aspects:
+      clear: 381
+      caution: 382
+      danger: 383
+      route_1: 368
+    diagram:
+      section: P
+      end: left
+  - name: AJ3E
+    type: standard_three
+    feathers: 0
+    shunt: false
+    aspects:
+      clear: 369
+      caution: 370
+      danger: 371
+    diagram:
+      section: DE
+      end: left
+  - name: RAJ3E
+    type: standard_two
+    aspects:
+      clear: 304
+      danger: 305
+  - name: AJ4E
+    type: standard_three
+    feathers: 1
+    shunt: false
+    aspects:
+      clear: 372
+      caution: 373
+      danger: 374
+      route_1: 375
+    diagram:
+      section: E
+      end: left
+      callin: true
+  - name: AJ7E
+    type: standard_two
+    aspects:
+      clear: 360
+      danger: 361
+    diagram:
+      section: G
+      end: left
+  - name: AJ8E
+    type: standard_three
+    feathers: 0
+    shunt: false
+    aspects:
+      clear: 362
+      caution: 363
+      danger: 364
+    diagram:
+      section: CD
+      end: left
+  - name: AJ16E
+    type: standard_three
+    feathers: 0
+    shunt: true
+    aspects:
+      clear: 353
+      caution: 354
+      danger: 355
+      route_1: 356
+      shunt: 357
+    diagram:
+      section: B
+      end: left
+  - name: AJ17E
+    type: standard_three
+    feathers: 0
+    shunt: false
+    aspects:
+      clear: 358
+      caution: 359
+      danger: 344
+    diagram:
+      section: O
+      end: left
+  - name: AJ18E
+    type: standard_three
+    feathers: 0
+    shunt: false
+    aspects:
+      clear: 345
+      caution: 346
+      danger: 347
+    diagram:
+      section: M
+      end: left
+  - name: AJ21E
+    type: standard_three
+    feathers: 1
+    shunt: false
+    aspects:
+      clear: 348
+      caution: 349
+      danger: 350
+      route_1: 351
+    diagram:
+      section: I
+      end: left
+      trts: true
+  - name: AJ3W
+    type: standard_three
+    feathers: 0
+    shunt: false
+    aspects:
+      clear: 336
+      caution: 337
+      danger: 338
+      route_1: 339
+    diagram:
+      section: E
+      end: right
+  - name: AJ7W
+    type: standard_two
+    aspects:
+      clear: 340
+      danger: 341
+    diagram:
+      section: H
+      end: right
+  - name: AJ8W
+    type: standard_three
+    feathers: 0
+    shunt: false
+    aspects:
+      clear: 342
+      caution: 343
+      danger: 328
+    diagram:
+      section: D
+      end: right
+  - name: AJ9W
+    type: standard_three
+    feathers: 0
+    shunt: false
+    aspects:
+      clear: 329
+      caution: 330
+      danger: 331
+    diagram:
+      section: O
+      end: right
+  - name: AJ15W
+    type: standard_three
+    feathers: 0
+    shunt: true
+    aspects:
+      clear: 332
+      caution: 333
+      danger: 334
+      shunt: 335
+    diagram:
+      section: G
+      end: right
+      trts: true
+  - name: AJ16W
+    type: standard_three
+    feathers: 2
+    shunt: true
+    aspects:
+      clear: 320
+      caution: 321
+      danger: 322
+      route_1: 323
+      route_2: 324
+    diagram:
+      section: C
+      end: right
+  - name: AJ17W
+    type: standard_three
+    feathers: 0
+    shunt: false
+    aspects:
+      clear: 325
+      caution: 326
+      danger: 327
+    diagram:
+      section: P
+      end: right
+  - name: AJ18W
+    type: standard_three
+    feathers: 2
+    shunt: false
+    aspects:
+      clear: 312
+      caution: 313
+      danger: 314
+      route_1: 315
+      route_2: 316
+    diagram:
+      section: N
+      end: right
+      callin: true
+  - name: AJ22W
+    type: standard_three
+    feathers: 0
+    shunt: false
+    aspects:
+      clear: 317
+      caution: 318
+      danger: 319
+    diagram:
+      section: I
+      end: right
+      trts: true
+  - name: S11
+    type: shunt_two
+    aspects:
+      clear: 296
+      danger: 297
+    diagram:
+      section: A11
+      end: right
+      offset: -2
+      request: true
+  - name: S12
+    type: shunt_two
+    aspects:
+      clear: 298
+      danger: 299
+    diagram:
+      section: F12
+      end: left
+      offset: 2
+      request: true
+  - name: S14
+    type: shunt_two
+    aspects:
+      clear: 300
+      danger: 301
+    diagram:
+      section: NO14
+      end: right
+      offset: -2
+  - name: S19
+    type: shunt_two
+    aspects:
+      clear: 302
+      danger: 303
+    diagram:
+      section: C19
+      end: right
+      offset: -2
+      request: true
+  - name: Platform 1 E/B
+    type: off_indicator
+    indicator: 294
+  - name: Platform 1 W/B
+    type: off_indicator
+    indicator: 295
+  - name: AJ16WLOS
+    type: limit_of_shunt
+    aspects:
+      danger: 307
+    diagram:
+      section: B
+      end: right
+sections:
+  - name: A
+    input: 0
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 5
+      y: 10
+      width: 6
+  - name: A11
+    input: 21
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 10
+      y: 11
+      width: 2
+      label_left: headshunt
+  - name: B
+    input: 1
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 0
+      y: 10
+      width: 4
+      continuation_left: B
+  - name: C
+    input: 2
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 47
+      y: 10
+      width: 4
+      continuation_right: B
+  - name: C19
+    input: 25
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 44
+      y: 11
+      width: 2
+      label_left: e shed
+  - name: CD
+    input: 26
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 42
+      y: 10
+      width: 4
+  - name: D
+    input: 3
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 38
+      y: 10
+      width: 4
+  - name: DE
+    input: 17
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 34
+      y: 10
+      width: 4
+  - name: E
+    input: 4
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 30
+      y: 10
+      width: 4
+  - name: F
+    input: 5
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 24
+      y: 10
+      width: 5
+  - name: F12
+    input: 22
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 24
+      y: 11
+      width: 2
+      label_right: turntable
+  - name: F13
+    input: 23
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 25
+      y: 8
+      width: 4
+  - name: G
+    input: 6
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 18
+      y: 10
+      width: 5
+  - name: H
+    input: 7
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 13
+      y: 10
+      width: 5
+  - name: I
+    input: 8
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 21
+      y: 8
+      width: 4
+  - name: J
+    input: 9
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 5
+      y: 9
+      width: 4
+  - name: K
+    input: 10
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 5
+      y: 8
+      width: 6
+  - name: L
+    input: 11
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 5
+      y: 7
+      width: 4
+  - name: M
+    input: 12
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 0
+      y: 7
+      width: 4
+      continuation_left: A
+  - name: N
+    input: 13
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 47
+      y: 7
+      width: 4
+      continuation_right: A
+  - name: NO
+    input: 18
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 43
+      y: 7
+      width: 3
+  - name: NO14
+    input: 24
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 44
+      y: 6
+      width: 2
+      label_left: foxhole
+  - name: O
+    input: 14
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 40
+      y: 7
+      width: 3
+  - name: OP
+    input: 19
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 36
+      y: 7
+      width: 4
+  - name: P
+    input: 15
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 27
+      y: 7
+      width: 9
+  - name: Q
+    input: 16
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 17
+      y: 7
+      width: 10
+  - name: Q10
+    input: 20
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 17
+      y: 8
+      width: 4
+  - name: R
+    input: 27
+    low_set: 3.2
+    high_set: 24
+    diagram:
+      x: 10
+      y: 7
+      width: 6
+platforms:
+  - name: 1a
+    section: H
+    position: below
+  - name: 1b
+    section: G
+    position: below
+  - name: 2
+    section: I
+    position: below
+labels:
+  - text: "Great Amwell"
+    x: 18
+    y: 5
+crossings:
+  - name: center
+    diagram:
+      x: 39
+      y: 
+        - 7
+        - 10
+messages:
+  - name: error
+    size: 30
+    colour: red
+    bounding:
+      x: 0
+      y: 13
+      width: 51
+      height: 2
+  - name: trts
+    size: 30
+    colour: "#0088FF"
+    bounding:
+      x: 0
+      y: 15
+      width: 51
+      height: 2
+  - name: info
+    size: 15
+    colour: white
+    bounding:
+      x: 0
+      y: 17
+      width: 51
+      height: 1
+buttons:
+  - number: 1
+    name: "P1 E\r\nInner"
+    input: 0
+    halo: 280
+  - number: 2
+    name: "P1 E\r\nOuter"
+    input: 1
+    halo: 281
+  - number: 3
+    name: "P1 E\r\nHeadshunt"
+    input: 2
+    halo: 282
+  - number: 4
+    name: "P1 E\r\nExtension"
+    input: 3
+    halo: 283
+  - number: 5
+    name: "P1 E\r\nE Shed"
+    input: 4
+    halo: 284
+  - number: 6
+    name: "P1 E\r\nFoxhole"
+    input: 5
+    halo: 285
+  - number: 7
+    name: "P1 W\r\nTunnel"
+    input: 6
+    halo: 286
+  - number: 8
+    name: "P1 W\r\nExtension"
+    input: 7
+    halo: 287
+  - number: 9
+    name: "P1 W\r\nTurntable"
+    input: 8
+    halo: 272
+  - number: 10
+    name: "P2 E\r\nInner"
+    input: 9
+    halo: 273
+  - number: 11
+    name: "P2 E\r\nOuter"
+    input: 10
+    halo: 274
+  - number: 12
+    name: "P2 E\r\nExtension"
+    input: 11
+    halo: 275
+  - number: 13
+    name: "P2 E\r\nE Shed"
+    input: 12
+    halo: 276
+  - number: 14
+    name: "P2 E\r\nFoxhole"
+    input: 13
+    halo: 277
+  - number: 15
+    name: "P1 W\r\nTunnel"
+    input: 14
+    halo: 278
+  - number: 16
+    name: "P1 W\r\nExtension"
+    input: 15
+    halo: 279
+  - number: 17
+    name: "Remote P1\r\nTRTS"
+    input: 16
+    halo: 264
+  - number: 18
+    name: "Remote P2\r\nTRTS"
+    input: 17
+    halo: 265
+  - number: 19
+    name: "E Shed\r\nRequest"
+    input: 18
+    halo: 266
+  - number: 20
+    name: "TT\r\nRequest"
+    input: 19
+    halo: 267
+  - number: 21
+    name: "Headshunt\r\nRequest"
+    input: 20
+    halo: 268
+  - number: 22
+    name: "Foxhole\r\nRequest"
+    input: 21
+    halo: 269
+  - number: 23
+    name: "TRTS"
+    input: 22
+    halo: 270
+  - number: 25
+    name: "Manual"
+    input: 24
+    halo: 256
+  - number: 26
+    name: "P1\r\napproach"
+    input: 25
+    halo: 257
+  - number: 27
+    name: "P2\r\napproach"
+    input: 26
+    halo: 258
+  - number: 28
+    name: "Aux 1"
+    input: 27
+    halo: 259
+  - number: 29
+    name: "Aux 2"
+    input: 28
+    halo: 260
+  - number: 30
+    name: "Aux 3"
+    input: 29
+    halo: 261
+sensors:
+  tunnel:
+    east:
+      NO: 40
+      NC: 41
+    west:
+      NO: 42
+      NC: 43
+  crossing:
+    outer:
+      in:
+        NO: 51
+        NC: 50
+      out:
+        NO: 49
+        NC: 48
+    inner:
+      in:
+        NO: 55
+        NC: 54
+      out:
+        NO: 53
+        NC: 52
+levers:
+  - number: 1
+    name: Platform 1 E/B Starter
+    point: false
+    normal: 56
+    reverse: 57
+    lock: 184
+    normal_indicator: 152
+  - number: 2
+    name: Diamond Approach
+    point: false
+    normal: 58
+    reverse: 59
+    lock: 185
+    normal_indicator: 153
+  - number: 3
+    name: Outer by hut
+    point: false
+    normal: 60
+    reverse: 61
+    lock: 186
+    normal_indicator: 154
+  - number: 4
+    name: E/B Station Approach
+    point: false
+    normal: 62
+    reverse: 63
+    lock: 187
+    normal_indicator: 155
+  - number: 5
+    name: Diamond Points
+    point: true
+    normal: 64
+    reverse: 65
+    lock: 188
+    normal_indicator: 156
+    reverse_indicator: 157
+  - number: 6
+    name: Diamond Points
+    point: true
+    normal: 66
+    reverse: 67
+    lock: 189
+    normal_indicator: 158
+    reverse_indicator: 159
+  - number: 8
+    name: Outer Bidirectional
+    point: false
+    normal: 70
+    reverse: 71
+    lock: 191
+    normal_indicator: 145
+  - number: 9
+    name: Inner Bidirectional
+    point: false
+    normal: 72
+    reverse: 73
+    lock: 176
+    normal_indicator: 146
+  - number: 10
+    name: P2 East End
+    point: true
+    normal: 74
+    reverse: 75
+    lock: 177
+    normal_indicator: 147
+    reverse_indicator: 148
+  - number: 11
+    name: Headshunt
+    point: true
+    normal: 76
+    reverse: 77
+    lock: 178
+    normal_indicator: 149
+    reverse_indicator: 150
+  - number: 12
+    name: Turntable
+    point: true
+    normal: 78
+    reverse: 79
+    lock: 180
+    normal_indicator: 151
+    reverse_indicator: 136
+  - number: 13
+    name: P2 West End
+    point: true
+    normal: 80
+    reverse: 81
+    lock: 181
+    normal_indicator: 137
+    reverse_indicator: 138
+  - number: 15
+    name: P1 Westbound Starter
+    point: false
+    normal: 84
+    reverse: 85
+    lock: 183
+    normal_indicator: 141
+  - number: 16
+    name: Outer Gantry
+    point: false
+    normal: 86
+    reverse: 87
+    lock: 168
+    normal_indicator: 142
+  - number: 17
+    name: Inner Level Crossing
+    point: false
+    normal: 88
+    reverse: 89
+    lock: 169
+    normal_indicator: 143
+  - number: 18
+    name: Inner Gantry
+    point: false
+    normal: 90
+    reverse: 91
+    lock: 170
+    normal_indicator: 128
+  - number: 19
+    name: Engine Shed
+    point: true
+    normal: 92
+    reverse: 93
+    lock: 171
+    normal_indicator: 129
+    reverse_indicator: 130
+  - number: 21
+    name: Platform 2 E/B Starter
+    point: false
+    normal: 94
+    reverse: 95
+    lock: 173
+    normal_indicator: 131
+  - number: 22
+    name: Platform 2 Westbound Starter
+    point: false
+    normal: 152
+    reverse: 153
+    lock: 174
+    normal_indicator: 132
+fuses:
+  cards: 12
+  fuses:
+  - card: 1
+    group: 1
+    input: 96
+  - card: 1
+    group: 2
+    input: 97
+  - card: 1
+    group: 3
+    input: 98
+  - card: 1
+    group: 4
+    input: 99
+  - card: 2
+    group: 1
+    input: 100
+  - card: 2
+    group: 2
+    input: 101
+  - card: 2
+    group: 3
+    input: 102
+  - card: 2
+    group: 4
+    input: 103
+  - card: 3
+    group: 1
+    input: 104
+  - card: 3
+    group: 2
+    input: 105
+  - card: 3
+    group: 3
+    input: 106
+  - card: 3
+    group: 4
+    input: 107
+  - card: 4
+    group: 1
+    input: 108
+  - card: 4
+    group: 2
+    input: 109
+  - card: 4
+    group: 3
+    input: 110
+  - card: 4
+    group: 4
+    input: 111
+  - card: 5
+    group: 1
+    input: 112
+  - card: 5
+    group: 2
+    input: 113
+  - card: 5
+    group: 3
+    input: 114
+  - card: 5
+    group: 4
+    input: 115
+  - card: 6
+    group: 1
+    input: 116
+  - card: 6
+    group: 2
+    input: 117
+  - card: 6
+    group: 3
+    input: 118
+  - card: 6
+    group: 4
+    input: 119
+  - card: 7
+    group: 1
+    input: 120
+  - card: 7
+    group: 2
+    input: 121
+  - card: 7
+    group: 3
+    input: 122
+  - card: 7
+    group: 4
+    input: 123
+  - card: 8
+    group: 1
+    input: 124
+  - card: 8
+    group: 2
+    input: 125
+  - card: 8
+    group: 3
+    input: 126
+  - card: 8
+    group: 4
+    input: 127
+  - card: 9
+    group: 1
+    input: 128
+  - card: 9
+    group: 2
+    input: 129
+  - card: 9
+    group: 3
+    input: 130
+  - card: 9
+    group: 4
+    input: 131
+  - card: 10
+    group: 1
+    input: 132
+  - card: 10
+    group: 2
+    input: 133
+  - card: 10
+    group: 3
+    input: 134
+  - card: 10
+    group: 4
+    input: 135
+  - card: 11
+    group: 1
+    input: 136
+  - card: 11
+    group: 2
+    input: 137
+  - card: 11
+    group: 3
+    input: 138
+  - card: 11
+    group: 4
+    input: 139
+  - card: 12
+    group: 1
+    input: 140
+  - card: 12
+    group: 2
+    input: 141
+  - card: 12
+    group: 3
+    input: 142
+  - card: 12
+    group: 4
+    input: 143
+contactors:
+  - name: estop
+    detect: 157
+    default: True
+  - name: AC
+    detect: 158
+    default: False
+  - name: Aux
+    detect: 159
+    default: True
+relays:
+  - name: Power On
+    trigger: 91
+    detect: -1
+  - name: Power Off
+    trigger: 92
+    detect: -1
+  - name: EStop Trigger
+    trigger: 89
+    detect: -1
+  - name: EStop Reset
+    trigger: 88
+    detect: -1
+switches:
+  - name: Direction
+    output1: 144
+    output2: 145
