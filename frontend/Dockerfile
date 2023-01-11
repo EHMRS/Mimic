@@ -11,7 +11,7 @@ RUN npm run build
 
 FROM bitnami/nginx:latest
 
-LABEL org.opencontainers.image.source https://github.com/EHMRS/ModernMimic
+LABEL org.opencontainers.image.source https://github.com/EHMRS/Mimic
 
 WORKDIR /app
 
